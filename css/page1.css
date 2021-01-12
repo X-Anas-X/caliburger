@@ -1,0 +1,470 @@
+html {
+    scroll-behavior: smooth;
+  }  
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+
+header{
+    margin-top: 15px;
+    border-top: 12px solid #e8602e;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.orangeDiv {
+    background-image: linear-gradient(to right, rgba(255,0,0,0) -20%, rgb(232 96 46) 101%);
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 0 0 350px 0;
+    height: 100%;
+    float: right;
+}
+
+.orangeDiv h1{
+    margin-top: 5%;
+    font-size: 50px;
+}
+
+#p1{
+    margin-top: 5%;
+}
+
+.orangeDiv p{
+    margin-top: 1.5%;
+    text-align: justify;
+    margin-left: 32%;
+}
+
+#tourBtn {
+    float: right;
+    margin-top: 3%;
+    margin-right: 26%;
+    background-color: white;
+    border-radius: 13px;
+    padding: 2% 4% 2% 4%;
+    border: #e8602e 2.5px solid;
+    box-shadow: 4px 3px 10px black;
+    font-size: 15px;
+    color: #e8602e;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#tourBtn:hover{
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.2); 
+margin-bottom: 5%;
+}
+
+#bg{
+    border-radius: 0 0 350px 350px;
+    background-image: url(../img/door.jpg);
+    width: 100%;
+    height: 607px;
+}
+
+#header{
+    margin-top: -30px;
+    margin-left: 1%;
+}
+
+img#logo {
+    width: 25%;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: #e8602e;
+    font-family: sans-serif;
+}
+
+span{
+    transition: 0.5s;
+}
+
+span:hover{
+    padding: 5px;
+    background-color: #f8e1b4;
+    border-radius: 6px;
+}
+
+#a1{
+padding-left: 1%;
+}
+
+#a{
+    padding-left: 5%;
+}
+
+#search-btn {
+    width: 6%;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+input[type="text"] {
+    height: 24px;
+    border-radius: 3px;
+}
+
+#searchInput{
+    border: #e8602e 2.5px solid;
+}
+/* Main */
+
+
+form#reg {
+    background-color: rgb(0, 186, 248);
+    width: 18%;
+    border-radius: 15px;
+    float: right;
+    height: 392px;
+    box-shadow: 4px 3px 10px black;
+    text-align: center;
+    z-index: 10;
+    margin: -33% 20% 0% 0%;
+}
+
+
+.frm2{
+    width: 80%;
+    height: 111px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+#h1-reg {
+    color: white;
+    text-align: center;
+    margin-top: 9%;
+    font-size: 19px;
+}
+
+#h3-reg{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+
+input#name {
+    margin-top: 5%;
+    border: 1px solid aqua;
+}
+input#birthday{
+    border: 1px solid aqua;
+    margin-top: 3%;
+}
+input#address{
+    border: 1px solid aqua;
+    margin-top: 3%;
+}
+
+input#gender{
+    border: 1px solid aqua;
+    margin-top: 3%;
+}
+
+textarea {
+    width: 71%;
+    height: 111px;
+    margin-top: 3%;
+}
+
+
+#reg #p1 {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 2%;
+    font-size: 11px;
+}
+#reg #p2 {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 17%;
+    width: 68%;
+    font-size: 11px;
+    text-align: justify;
+}
+
+/* /////////////////////////////////////// */
+
+
+h1#h1-pro {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 9%;
+    background-color: #e85b2a;
+    font-family: sans-serif;
+    width: 22%;
+    margin-bottom: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+h1#h1-pro:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+    margin-bottom: 5%;
+}
+
+.figs{
+    text-align: -webkit-center;
+}
+
+div#figs1 {
+    display: flex;
+}
+
+#gifcap {
+    text-align: center;
+    width: 50%;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+#gifcap2{
+    color: gray;
+    text-align: center;
+    width: 50%;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+
+
+
+#figs2{
+    margin-top: 5%;
+    display: flex;
+}
+
+img#fig-img {
+    width: 150px;
+    height: 151px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+img#fig-img:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.2); 
+        margin-bottom: 5%;
+}
+
+figure#fig8 {
+    width: 49%;
+}
+
+
+
+/* Footer */
+
+footer{
+    margin-top: 5%;
+    background-color: #447171;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: yellow;
+}
+
+.iconclass{
+    margin-left: 5%;
+}
+
+#iconCap{
+    color: rgb(209, 209, 209);
+    margin-top: 10%;
+}
+
+
+
+/* Second Page */
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+
+.merged{
+    display: flex;
+    margin-top: -12%;
+    height: 400px;
+}
+
+#choppedImg {
+    border-radius: 0% 0% 50% 50%;
+}
+
+
+.opening{
+    background-color: #6db3b3;
+    width: 50%;
+    text-align: center;
+}
+
+h1#openingHours {
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-top: 30%;
+}
+
+h4{
+    font-family: sans-serif;
+    color: white;
+}
+
+h1#hours{
+    color: rgb(255, 255, 35);
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+#h1-touch{
+    margin-top: 5%;
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Alex Brush', cursive;
+}
+
+#h1-contact{
+    margin-top: 1%;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+#contact-form {
+    width: 35%;
+}
+
+.contactInput {
+    width: 99%;
+    border: #f7b6fd 2.5px solid;
+    margin-top: 3%;
+    background-color: rgb(240 247 249);
+}
+
+#contact-comment{
+width: 99%;
+border: #f7b6fd 2.5px solid;
+background-color: rgb(240 247 249);
+margin-left: 0%;
+height: 145px;
+margin-top: 3%;
+}
+
+#submit-btn{
+    width: 101%;
+    border: #f7b6fd 2.5px solid;
+    background-color: #ff3d23;
+    margin-top: 3%;
+    color: white;
+    border: none;
+    padding: 2.5%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 425px;
+    height: 340px;
+}
+
+
+
+/* contact Footer */
+
+.footer{
+    background-color: #e85b2a;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+#socialDiv{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#socialMedia1{
+    width: 3.5%;
+    height: 30px;
+    cursor: pointer;
+}
+#socialMedia2{
+    width: 3.5%;
+    height: 30px;
+    cursor: pointer;
+}
+#socialMedia3{
+    width: 3.5%;
+    height: 30px;
+    cursor: pointer;
+}
+#socialMedia4{
+    width: 3.5%;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+#socialMedia1:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.2); 
+}
+
+#socialMedia2:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2); 
+}
+
+#socialMedia3:hover{
+    -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5);
+        transform: scale(1.2); 
+}
+
+
+#socialMedia4:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2); 
+}
+
+.footer p{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 2%;
+}
